@@ -1,7 +1,7 @@
 from pathlib import Path
 import json
-from .stem_studio.assets import build_pack
-from .stem_studio.engine import run_job, CATALOG
+from stem_studio.assets import build_pack
+from stem_studio.engine import run_job, CATALOG
 
 class StemStudio:
     def __init__(self, models_dir="./models"):
